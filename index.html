@@ -37,16 +37,16 @@
             <div class="nav-bar">
                 <ul id="nav-items" class="list-inline" menucontainer >
                     <li class="col-6 col-sm-3 list-inline-item menuitem hvr-sweep-to-bottom">
-                        <a href="#"><span>About me</span></a>
+                        <a href="#about-me" aria-label="Go to the about me of the page"><span>About me</span></a>
                     </li>
                     <li class="col-6 col-sm-3 list-inline-item menuitem hvr-sweep-to-bottom">
-                        <a href="#"><span>Skills</span></a>
+                        <a href="#skills-technologies-section" aria-label="Go to the skills of the page"><span>Skills</span></a>
                     </li>
                     <li class="col-6 col-sm-3 list-inline-item menuitem hvr-sweep-to-bottom">
-                        <a href="#"><span>Projects</span></a>
+                        <a href="#project-portfolio" aria-label="Go to the projects of the page"><span>Projects</span></a>
                     </li>
                     <li class="col-6 col-sm-3 list-inline-item menuitem hvr-sweep-to-bottom">
-                        <a href="#"><span>Contact me</span></a>
+                        <a href="#contact-section" aria-label="Go to the contact of the page"><span>Contact me</span></a>
                     </li>
                     <li class="col-6 col-sm-3 list-inline-item menuitem hvr-sweep-to-bottom">
                         <a href="#"><span>Download CV</span></a>
@@ -58,12 +58,12 @@
     </header>
     <br>
     <!---------------------------------Heading-------------------------------->
-    <section class="container-fluid about-me">
+    <section class="container-fluid about-me" id="about-me">
         <div class="row profile-section">
-            <div class="col-md-5 profile-image">
+            <div class="col-md-2 profile-image">
                 <img src="assets/images/profile-image.jpg" alt="Profile image">
             </div>
-        <div class="col-md-7 profile-info">
+        <div class="col-md-8 profile-info">
             <h3 class="about-me-title">About me</h3>
             <p class="about-me-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta possimus rerum accusantium. Assumenda, rem ut, tenetur
             repellendus autem perferendis omnis culpa tempore vel nihil laboriosam, animi sint ad fugit expedita?
@@ -73,38 +73,13 @@
         </div>
     </section>
     <br>
-    <!---------------------------------Skills and education-------------------------------->
-    <section class="container-fluid">
-        <div class="row row-table">
-            <div class="col-xs-12 col-sm-12 col-md-3 bg-color-work-history section-column">
+    <!---------------------------------Skills and technologies-------------------------------->
+    <section class="container-fluid skills-technologies-section" id="skills-technologies-section">
+        <div class="row row-table">            
+            <div class="col-xs-12 col-sm-12 col-md-12 bg-color-three-reasons section-column">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="history-heading uppercase">Work History</h3>
-                    </div>
-                </div>
-                <div class="history-items">
-                    <div class="timeline-item" dates="02/1998 - 04/2004">
-                        <h4>Proteintech</h4>
-                        <p>Field marketing representative</p>
-                    </div>
-                    <div class="timeline-item" dates="04/2004 - 06/2008">
-                        <h4>Artios</h4>
-                        <p>Scientist</p>
-                    </div>
-                    <div class="timeline-item" dates="06/2008 - 06/2011">
-                        <h4>Phantom Design Inc. Dublin</h4>
-                        <p>Junior Front End Developer</p>
-                    </div>
-                    <div class="timeline-item" dates="06/2011 - Present">
-                        <h4>Hooli Inc. Silicon Valley</h4>
-                        <p>Full Stack Web Developer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 bg-color-three-reasons section-column">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="section-heading uppercase">My Skills</h3>
+                        <h3 class="section-heading uppercase">Skills</h3>
                     </div>
                 </div>
                 <div class="row reasons-section">
@@ -137,21 +112,35 @@
                     </div>
                 <div class="progress-section">
                         <div class="progress-technologies">
-                                <h3> Technologies</h3>
+                                <h3>TECHNOLOGIES</h3>
                                 <p>As a Junior Full Stack Software Developer, I've gained exposure to a wide wide variety of tools in both backend and frontend development.</p>
                         </div>
+                        <div class="technologies__icons-container">
+                            <div class="single-icon-container not_observed observed"><img loading="lazy" src="/assets/images/icons/html-icon.svg" alt="HTML Icon" class="tech-icon"><span>HTML</span></div>
+                            <div class="single-icon-container not_observed observed"><img loading="lazy" src="assets/images/icons/css-icon.svg" alt="CSS Icon" class="tech-icon"><span>CSS</span></div>
+                            <div class="single-icon-container not_observed observed"><img loading="lazy" src="assets/images/icons/javascript-programming-language-icon.svg" alt="JS Icon" class="tech-icon"><span>JavaScript</span></div>
+                            <div class="single-icon-container not_observed observed"><img loading="lazy" src="assets/images/icons/python-programming-language-icon.svg" alt="Python Icon" class="tech-icon"><span>Python</span></div>
+                            <div class="single-icon-container not_observed observed"><img loading="lazy" src="assets/images/icons/bootstrap-5-logo-icon.svg" alt="Bootstrap 5 Icon" class="tech-icon"><span>Bootstrap</span></div>
+                            <div class="single-icon-container not_observed observed"><img loading="lazy" src="assets/images/icons/django-icon.svg" alt="Django Icon" class="tech-icon"><span>Django</span></div>
+                            <div class="single-icon-container not_observed observed"><img loading="lazy" src="assets/images/icons/postgresql-icon.svg" alt="Postgresql Icon" class="tech-icon"><span>PostgreSQL</span></div>
+                            <div class="single-icon-container not_observed observed"><img loading="lazy" src="assets/images/icons/jquery-icon.svg" alt="jQuery Icon" class="tech-icon"><span>jQuery</span></div>
+                            <div class="single-icon-container not_observed observed"><img loading="lazy" src="assets/images/icons/heroku-icon.svg" alt="Heroku Icon" class="tech-icon"><span>Heroku</span></div>
+                            <div class="single-icon-container not_observed observed"><img loading="lazy" src="assets/images/icons/github-icon.svg" alt="GitHub Icon" class="tech-icon"><span>GitHub</span></div>
+                            <div class="single-icon-container not_observed observed"><img loading="lazy" src="assets/images/icons/git-icon.svg" alt="Git Icon" class="tech-icon"><span>Git</span></div>
+                            <div class="single-icon-container not_observed observed"><img loading="lazy" src="assets/images/icons/visual-studio-code-icon.svg" alt="VSCode Icon" class="tech-icon"><span>VSCode</span></div>
+                          </div>
                 </div>
             </div>
         </div>
     </section>
     <!---------------------------------Project information-------------------------------->
     <br>
-    <section class="container-fluid project-portfolio">
+    <section class="container-fluid project-portfolio" id="project-portfolio">
         <div>
             <h3 class="project-title">Projects</h3>
         </div>
         <div class="row">
-            <div class="col-md-6 project-overall">
+            <div class="col-md-5 project-overall">
                 <h2 class="project-name">PhD pathways</h2>
                 <ul id="project-technologies" class="list-inline" menucontainer>
                     <li class="col-6 col-sm-3 list-inline-item project-tchnologies hvr-sweep-to-bottom">
@@ -161,7 +150,7 @@
                         <p>CSS</p>
                     </li>
                 </ul>
-                <h3 class="menuitem list-inline-item hvr-sweep-to-bottom"><a href="#"><span>Projects link</span></a></h3>
+                <h3 class="menuitem list-inline-item hvr-sweep-to-bottom"><a href="https://github.com/aaronalonsotorrens/PhD-pathways" target="_blank" rel="noopener noreferrer"><span>Github link</span></a></h3>
                 <p id="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint officiis molestias optio ab
                     quis voluptatem, laudantium labore maiores consequatur cumque fuga placeat illo atque facere accusamus repudiandae
                     ea tempora sapiente.</p>
@@ -170,7 +159,7 @@
                 <img src="assets/images/PhD-pathways-image.png" alt="PhD Pathways">
             </div>
             <!---------------------------------Project information number 2-------------------------------->
-            <div class="col-md-6 project-overall">
+            <div class="col-md-5 project-overall">
                 <h2 class="project-name">Super Mario Arcade</h2>
                 <ul id="project-technologies" class="list-inline" menucontainer>
                     <li class="col-6 col-sm-3 list-inline-item project-tchnologies hvr-sweep-to-bottom">
@@ -183,7 +172,7 @@
                         <p>Javascrip</p>
                     </li>
                 </ul>
-                <h3 class="menuitem list-inline-item hvr-sweep-to-bottom"><a href="#"><span>Projects link</span></a></h3>
+                <h3 class="menuitem list-inline-item hvr-sweep-to-bottom"><a href="https://github.com/aaronalonsotorrens/arcade-game" target="_blank" rel="noopener noreferrer"><span>Github link</span></a></h3>
                 <p id="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint officiis molestias optio ab
                     quis voluptatem, laudantium labore maiores consequatur cumque fuga placeat illo atque facere accusamus repudiandae
                     ea tempora sapiente.</p>
@@ -192,14 +181,14 @@
                 <img src="assets/images/Super-Mario-Arcade-image.png" alt="Mario Arcade game">
             </div>
             <!---------------------------------Project information number 3-------------------------------->
-            <div class="col-md-6 project-overall">
+            <div class="col-md-5 project-overall">
                 <h2 class="project-name">LoCo recipe finder</h2>
                 <ul id="project-technologies" class="list-inline" menucontainer>
                     <li class="col-6 col-sm-3 list-inline-item project-tchnologies hvr-sweep-to-bottom">
                         <p>Python</p>
                     </li>
                 </ul>
-                <h3 class="menuitem list-inline-item hvr-sweep-to-bottom"><a href="#"><span>Projects link</span></a></h3>
+                <h3 class="menuitem list-inline-item hvr-sweep-to-bottom"><a href="https://github.com/aaronalonsotorrens/LoCo-recipe-finder" target="_blank" rel="noopener noreferrer"><span>Github link</span></a></h3>
                 <p id="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint officiis molestias optio ab
                     quis voluptatem, laudantium labore maiores consequatur cumque fuga placeat illo atque facere accusamus repudiandae
                     ea tempora sapiente.</p>
@@ -211,7 +200,7 @@
         </div>
     </section>
         <!---------------------------------Contact-------------------------------->
-        <section class="container-fluid ">
+        <section class="container-fluid contact-section" id="contact-section">
             <div class="row bg-color-contact">
                 <div>
                     <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>

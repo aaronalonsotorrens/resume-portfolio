@@ -104,7 +104,7 @@ header {
 }
 
 .profile-image img {
-    width: 30%;
+    width: 50%;
     border-radius: 50%;
 }
 /*--------------------------------------------------------------------Footer*/
@@ -143,12 +143,13 @@ footer {
 /*----------------------------------------------Skills*/
 
 .progress-section {
-    margin: 0 5rem;
+    margin: 0 1rem;
 }
 
 .progress-technologies p,
 .progress-technologies h3 {
     margin-top: 2rem;
+    text-align: center;
 }
 
 .three-reasons-icon {
@@ -164,6 +165,32 @@ footer {
     margin: 1rem;
 }
 
+/*----------------------------------------------Technologies*/
+
+
+.technologies__icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  
+  .tech-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .single-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: var(--small);
+    font-family: var(--ff1);
+  }
 /*--------------------------------------------Work History*/
 
 .section-column {
@@ -227,6 +254,7 @@ footer {
 .project-title {
     text-align: center;
     margin-top: 1rem;
+    text-transform: uppercase;
 }
 
 #project-technologies li {
@@ -257,7 +285,8 @@ footer {
 }
 
 .project-overall {
-    margin: 0 0 0 6rem;
+    margin: auto;
+    text-align: center;
 }
 
 .project-overall h2 {
@@ -282,13 +311,16 @@ footer {
 
 /*--------------------------------------------Contact form*/
 
+.contact-section {
+    margin-top: 3rem;
+}
+
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
 }
-
 
 .center-form {
     padding-top: 10px;
@@ -305,6 +337,17 @@ button[type="submit"] {
 
 /*--------------------------------------------Media Queries*/
 
+@media(min-width: 578px) {
+    .profile-image img {
+        width: 180%;
+        border-radius: 50%;
+    }
+
+    #project-description {
+        text-align: justify;
+    }
+}
+
 @media(min-width: 992px) {
     .section-column {
         padding: 0 30px 30px;
@@ -317,5 +360,21 @@ button[type="submit"] {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
+    }
+
+    .profile-image img {
+        width: 140%;
+        border-radius: 50%;
+    }
+}
+
+@media(min-width: 1500px) {
+    h1, h2, h3, h4, p {
+        font-size:x-large;
+    }
+
+    .profile-image img {
+        width: 100%;
+        border-radius: 50%;
     }
 }
