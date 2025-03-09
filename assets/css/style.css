@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*--------------------------------------------Colors*/
+
+.bg-color-work-history {
+    background-color: #D0BCAE;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
+/*--------------------------------------------------------------------Special paddings, margins,text*/
+
+p {
+    font-size: 16px;
+}
+
+/*--------------------------------------------------------------------Heading*/
+
+header {
+    margin:0;
+    background-color: #1e1e1e;
+}
+
+.header-content {
+    color: white;
+    padding: 3rem;
+    line-height: 1.5;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.sm-intro {
+    font-size: 15px;
+}
+
+/*--------------------------------------------------------------------Navigation bar*/
+
+.nav-bar {
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav-items li {
+    background-color: #F0B075;
+    font-size: 14px;
+    padding: 1rem;
+    width: 10rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menuitem a {
+    text-decoration: none;
+    color:#1e1e1e;
+}
+
+/*--------------------------------------------------------------------Hover*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/*--------------------------------------------------------------------About me section*/
+
+.profile-section {
+    background-color: #D0BCAE;
+    padding: 1rem;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.about-me-title {
+    margin-top: 1rem;
+}
+
+.about-me-info {
+    margin: 2rem;
+    text-align: justify;
+}
+.profile-image {
+    text-align: center;
+    margin:auto;
+}
+
+.profile-image img {
+    width: 30%;
+    border-radius: 50%;
+}
+/*--------------------------------------------------------------------Footer*/
+
+footer {
+    background-color: #1e1e1e;
+    color:#ffffff;
+    height: 120px;
+    padding: 1rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.inline-block {
+    display:inline-block;
+}
+
+.social-links {
+    padding: 10px;
+    text-align: center;
+}
+
+.social-links li a i {
+    font-size: 30px;
+    color: #F0B075;
+    width: 80px;
+}
+
+.social-links li a i:hover {
+    background: #ffffff;
+}
+
+/*----------------------------------------------Skills*/
+
+.progress-section {
+    margin: 0 5rem;
+}
+
+.progress-technologies p,
+.progress-technologies h3 {
+    margin-top: 2rem;
+}
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+.reasons-section {
+    margin: 1rem;
+}
+
+/*--------------------------------------------Work History*/
+
+.section-column {
+    margin-left: 1rem;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+.history-heading,
+.section-heading {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*--------------------------------------------Project portfolio*/
+
+.project-title {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#project-technologies li {
+    background-color: #1e1e1e;
+    color:#ffffff;
+    padding: 0.2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    width: 5rem;
+    text-align: center;
+}
+
+#project-technologies p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.menuitem {
+    background-color: #e67e22;
+    color: #1e1e1e;
+    font-size: 14px;
+    padding: 0.5rem;
+    width: 10rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-overall {
+    margin: 0 0 0 6rem;
+}
+
+.project-overall h2 {
+    font-size: 25px;
+}
+
+#project-description {
+    margin-top: 1rem;
+}
+
+.project-image {
+    margin-right: 4rem;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-overall, .project-image {
+    margin-top: 2rem;
+}
+
+/*--------------------------------------------Contact form*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
+
+/*--------------------------------------------Media Queries*/
+
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
