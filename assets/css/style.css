@@ -54,7 +54,6 @@ header {
     font-size: 0;
 }
 
-
 #nav-items li {
     background-color: #F0B075;
     font-size: 14px;
@@ -68,6 +67,10 @@ header {
 .menuitem a {
     text-decoration: none;
     color:#1e1e1e;
+}
+
+#nav-items li {
+    font-size: 16px;
 }
 
 /*--------------------------------------------------------------------Hover*/
@@ -141,6 +144,10 @@ footer {
 
 /*----------------------------------------------Skills*/
 
+#skills-title {
+    font-size: 28px;
+}
+
 .skills-technologies-section {
     background-color: #e8e8e8;
     text-align: justify;
@@ -195,63 +202,6 @@ footer {
     font: var(--small);
     font-family: var(--ff1);
   }
-/*--------------------------------------------Work History*/
-
-.section-column {
-    margin-left: 1rem;
-}
-
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: .8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fafafa;
-}
-
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
-}
-
-.history-items {
-    margin-bottom: 30px;
-}
-
-.history-heading,
-.section-heading {
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
 
 /*--------------------------------------------Project portfolio*/
 
@@ -259,6 +209,7 @@ footer {
     text-align: center;
     margin-top: 1rem;
     text-transform: uppercase;
+    font-size: 28px;
 }
 
 #project-technologies li {
@@ -268,12 +219,12 @@ footer {
     margin-top: 1rem;
     text-decoration: none;
     font-weight: bold;
-    width: 5rem;
+    width: 6rem;
     text-align: center;
 }
 
 #project-technologies p {
-    font-size: 10px;
+    font-size: 16px;
     margin: 0;
 }
 
@@ -382,4 +333,13 @@ button[type="submit"] {
         width: 100%;
         border-radius: 50%;
     }
+
+    #project-technologies p {
+        font-size: x-large;
+    }
+
+    #nav-items li {
+        font-size: large;
+    }
 }
+
