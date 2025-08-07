@@ -21,25 +21,21 @@ p {
 
 header {
     margin:0;
-    background-color: #1e1e1e;
 }
 
 .header-content {
     color: white;
     padding: 3rem;
     line-height: 1.5;
+    background-color: #000000;
 }
 
 .name {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .title {
-    font-size: 25px;
-}
-
-.sm-intro {
-    font-size: 15px;
+    font-size: 30px;
 }
 
 /*--------------------------------------------------------------------Navigation bar*/
@@ -57,6 +53,7 @@ header {
 .menucontainer {
     font-size: 0;
 }
+
 
 #nav-items li {
     background-color: #F0B075;
@@ -82,7 +79,7 @@ header {
 /*--------------------------------------------------------------------About me section*/
 
 .profile-section {
-    background-color: #D0BCAE;
+    background-color: #ffffff;
     padding: 1rem;
 }
 
@@ -92,9 +89,11 @@ header {
 
 .about-me-title {
     margin-top: 1rem;
+    font-size: 28px;
 }
 
 .about-me-info {
+    font-weight: 350;
     margin: 2rem;
     text-align: justify;
 }
@@ -110,9 +109,8 @@ header {
 /*--------------------------------------------------------------------Footer*/
 
 footer {
-    background-color: #1e1e1e;
     color:#ffffff;
-    height: 120px;
+    background-color: #000000;
     padding: 1rem;
 }
 
@@ -123,6 +121,7 @@ footer {
 
 .inline-block {
     display:inline-block;
+    margin: 0 0 0 2rem;
 }
 
 .social-links {
@@ -141,6 +140,11 @@ footer {
 }
 
 /*----------------------------------------------Skills*/
+
+.skills-technologies-section {
+    background-color: #e8e8e8;
+    text-align: justify;
+}
 
 .progress-section {
     margin: 0 1rem;
@@ -295,6 +299,7 @@ footer {
 
 #project-description {
     margin-top: 1rem;
+    text-align: justify;
 }
 
 .project-image {
@@ -369,7 +374,7 @@ button[type="submit"] {
 }
 
 @media(min-width: 1500px) {
-    h1, h2, h3, h4, p {
+    h1, h2, h3, h4, h5, h6, p {
         font-size:x-large;
     }
 
