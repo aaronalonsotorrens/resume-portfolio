@@ -176,6 +176,14 @@ footer {
     margin: 1rem;
 }
 
+.front-end-title,
+.back-end-title {
+    display: flex;
+    align-items: center;      
+    justify-content: center;   
+    text-align: center;
+    gap: 0.5rem;               
+}
 /*----------------------------------------------Technologies*/
 
 
@@ -335,11 +343,15 @@ button[type="submit"] {
     }
 
     #project-technologies p {
-        font-size: x-large;
+        font-size: large;
     }
 
     #nav-items li {
         font-size: large;
+    }
+
+    #project-technologies li {
+        width: 8rem;
     }
 }
 
