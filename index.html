@@ -61,7 +61,7 @@
                                 me</span></a>
                     </li>
                     <li class="col-6 col-sm-3 list-inline-item menuitem hvr-sweep-to-bottom">
-                        <a href="assets/cv/" target="_blank" aria-label="Download CV file" ><span>Download CV</span></a>
+                        <a href="assets/cv/Aaron_Alonso_Torrens_CV.pdf" target="_blank" aria-label="Download CV file" ><span>Download CV</span></a>
                     </li>
                 </ul>
             </div>
@@ -327,12 +327,13 @@
             <div class="center-form">
                 <form onsubmit="return sendMail(this);">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email"
-                        required />
-                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary"
-                        placeholder="Project Description" required></textarea>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
                     <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
                 </form>
+
+                <!-- Success/Error message -->
+                <p id="form-message" style="margin-top: 10px;"></p>
             </div>
         </div>
     </section>
