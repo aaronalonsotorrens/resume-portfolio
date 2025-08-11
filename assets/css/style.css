@@ -2,10 +2,6 @@
 
 /*--------------------------------------------Colors*/
 
-.bg-color-work-history {
-    background-color: #D0BCAE;
-}
-
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
@@ -149,7 +145,7 @@ footer {
 }
 
 .skills-technologies-section {
-    background-color: #e8e8e8;
+    background-color: #f8f8f8;
     text-align: justify;
 }
 
@@ -355,3 +351,34 @@ button[type="submit"] {
     }
 }
 
+@media (min-width: 3840px) {
+    h1, h2, h3, h4, h5, h6, p {
+        font-size: xx-large;
+    }
+
+    .reasons-content {
+        padding: 40px; /* space inside the card/section */
+    }
+
+    .three-reasons-icon {
+        font-size: 4rem; /* makes the icon more proportional */
+    }
+
+    #project-technologies p {
+        font-size: x-large;
+    }
+
+    #nav-items li {
+        font-size: x-large;
+        width: 12rem;
+    }
+
+    #project-technologies li {
+        width: 12rem;
+    }
+
+    .about-me-title, #skills-title, .project-title {
+    font-size: 40px;
+    }
+
+}
